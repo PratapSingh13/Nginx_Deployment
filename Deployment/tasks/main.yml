@@ -5,4 +5,4 @@
 
 - name: Deploying file on EC2 server
   include: deploy.yml
-  when: inventory_hostname in groups['EC2_Instance']
+  when: inventory_hostname in groups['EC2_Instances']
