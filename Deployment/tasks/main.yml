@@ -1,0 +1,8 @@
+---
+# tasks file for Deployment
+- name: Cloning Git repository
+  include: git.yml
+
+- name: Deploying file on EC2 server
+  include: deploy.yml
+  when: inventory_hostname in groups['EC2_Instance']

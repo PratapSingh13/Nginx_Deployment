@@ -1,0 +1,7 @@
+---
+# handlers file for Deployment
+- name: Restart Nginx
+  service:
+    name: nginx
+    state: restarted
+  become: True

@@ -1,0 +1,5 @@
+- name: Copy file to EC2 Server
+  copy: 
+    src: /var/lib/jenkins/nginx_application/index.nginx-debian.html
+    dest: /var/www/html
+    force: yes
