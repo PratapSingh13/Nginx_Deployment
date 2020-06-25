@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: localhost, EC2_Instances
   become: yes
   roles:
     - Deployment
