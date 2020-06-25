@@ -2,5 +2,5 @@
   git:
     repo: https://github.com/PratapSingh13/Nginx.git
     version: master
-    dest: /var/lib/jenkins/nginx_application
+    dest: /tmp/nginx_application
     accept_hostkey: yes
